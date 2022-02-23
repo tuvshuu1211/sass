@@ -1,0 +1,15 @@
+section{
+    .section-heading{
+        text-align: center;
+        h2.section-heading-title{
+            font-size: $font-size-lg;
+            color: $black;
+            width: 50%;
+            margin: 0 auto;
+        }
+        p.section-subheading-title{
+            font-size: $font-size-md;
+            color: $gray;
+        }
+    }
+}

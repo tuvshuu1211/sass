@@ -1,0 +1,25 @@
+
+@import './base/base';
+@import './base/variable';
+@import './base/mixins';
+@import './base/utilities';
+@import './base/function';
+
+// Layout
+@import './layout/container';
+@import './layout/column';
+
+
+// navbar styling
+@import './components/navbar';
+
+
+// Button styling   
+@import './components/button';
+
+//Section Styling
+@import './section/header';
+
+@import './section/section';
+
+@import './section/dishes'

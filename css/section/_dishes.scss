@@ -1,0 +1,27 @@
+.food-card{
+    background-image: linear-gradient(to bottom, rgba($light-blue, $alpha: 1), rgba($light-blue, $alpha: 0));
+    border: 1px solid $light-blue;
+    border-radius: 20px;
+    // display: inline-block;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    .food-image{
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        border-radius: 50%;
+        margin: 0 auto;
+        overflow: hidden;
+        @include overlay;
+        img{
+            @include center;
+            width: 70%;
+        }
+    }
+    .food-title{
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        margin-top: 1rem;
+    }
+}

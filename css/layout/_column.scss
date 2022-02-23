@@ -1,0 +1,21 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex: 1 0 auto;
+    margin: toPX(15);
+    @media(max-width: $break-xs){
+        flex: 1 grid(1);
+    }
+    @media(min-width: $break-sm){
+        flex: 1 grid(2);
+    }
+    @media(min-width: $break-md){
+        flex: 1 grid(3);
+    }
+    @media(min-width: $break-lg){
+        flex: 1 grid(5);
+    }
+}

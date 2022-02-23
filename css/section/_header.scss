@@ -1,0 +1,35 @@
+header.header-section{
+    .header-content-body{
+        h2.header-title{
+            color: $black;
+            font-size: $font-size-xl;
+        }
+        p.header-content{
+            font-size: $font-size-md;
+            color: $gray;
+        }
+    }
+
+    .header-image{
+        @include overlay{};
+    }
+
+    .header-form{
+        .form-control{
+            position: relative;
+            .header-input{
+                width: 100%;
+                padding: 15px;
+                border: 1px solid $gray;
+                border-radius: 30px;
+            }
+            button{
+                border: none;
+                position: absolute;
+                right: 6px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}

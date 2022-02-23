@@ -1,0 +1,17 @@
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: $primary;
+    border-radius: 20px;
+    color: white;
+    transition: all .3s ease;
+    font-size: divider(100px, 20px);
+    &:hover{
+        background-color: darken($primary, $amount: 20%);
+    }
+}
